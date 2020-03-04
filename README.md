@@ -12,10 +12,6 @@ WARNING:- THIS WEB APP CAN BE EASILY EXPLOITED. SO DON'T INSTALL IT ON YOUR WEBS
 
 
 #                           <==ZACK Insecure v1.0==>
-Requirements:- 
- *Apache XAMPP Server (LAMP, MAMP can also be used)
- *PHP v7.0 (or above)
- *(Optional) Sandbox or Virtual Machines for safety
 
 VULNERABILITIES (ADDRESSED)
 ---------------------------
@@ -29,6 +25,12 @@ VULNERABILITIES (ADDRESSED)
 * XSRF
 * File Inclusion DOS
 * JavaScript Insecure Validation
+
+Requirements:- 
+ *Apache XAMPP Server (LAMP, MAMP can also be used)
+ *PHP v7.0 (or above)
+ *(Optional) Sandbox or Virtual Machines for safety
+
 
 VULNERABILITIES (UN-ADDRESSED)
 ------------------------------
