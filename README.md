@@ -11,23 +11,24 @@ This web application is not using MySQL to handle user-related functions.
 WARNING:- THIS WEB APP CAN BE EASILY EXPLOITED. SO DON'T INSTALL IT ON YOUR WEBSITE (ONLINE) AND DON'T HOST IT FROM YOUR COMPUTER WHILE YOU ARE CONNECTED TO INTERNET. YOU CAN EITHER USE IT ON YOUR DEVICE WHEN NOT CONNECTED TO ANY NETWORK OR YOU CAN USE IT ON ANY VIRTUAL OPERATING SYSTEMS (INSTALLED ON VIRTUALBOX, VMWARE ETC.) . THIS WEB APP CONTAINS SERIOUS VULNERABILTIES SUCH AS COMMAND INJECTION WITH WHICH AN ATTACKER CAN REMOTELY SHUT DOWN YOUR COMPUTER WHEN IT IS HOSTED ON YOUR COMPUTER AND IT IS ACCESSIBLE TO HIM. THE DEVELOPER CAN'T TAKE ANY RESPONSIBILITIES FOR ANY SUCH PROBLEMS. 
 
 
-#                           <==ZACK- Insecure Webapp- v1.0==>
+#                           <==ZACK Insecure v1.0==>
 Requirements:- 
  *Apache XAMPP Server (LAMP, MAMP can also be used)
  *PHP v7.0 (or above)
+ *(Optional) Sandbox or Virtual Machines for safety
 
 VULNERABILITIES (ADDRESSED)
 ---------------------------
 * XSS(POST & GET)
-* User Agent Spoofing 
+* IP Address Spoofing 
+* Captcha Bypassing
 * User Agent Injection
-* IP Address spoofing
+* User Agent Spoofing
 * Stored XSS
 * Command Injection
 * XSRF
 * File Inclusion DOS
 * JavaScript Insecure Validation
-* Captcha Bypassing
 
 VULNERABILITIES (UN-ADDRESSED)
 ------------------------------
@@ -48,6 +49,4 @@ VULNERABILITIES (UN-ADDRESSED)
 * Phishing
 * System Memory Stealing
 * Using External Programs
-
-NOTE:- The vulnerabilities that are listed above is not an joke, it's real.
 
